@@ -1,0 +1,55 @@
+﻿.text {
+    font-size: 25px;
+    
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slidecontainer {
+    position: fixed;
+    background: lightsteelblue;
+    opacity: 50%;
+    left: 90%;
+    bottom: 5%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.analysiscontainer {
+    position: fixed;
+    background: lightsteelblue;
+    opacity: 50%;
+    left: 90%;
+    top: 5%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+#sliderText {
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.svg {
+    position: absolute;
+    width: auto;
+    height: 100%;
+}
